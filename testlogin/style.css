@@ -1,0 +1,601 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+html, body{
+	//margin: 0 auto;
+
+	height: 100%;
+	width: 100%;
+	//background-image: url("img/bg.jpg");
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	line-height:1.5;
+	margin: 0;
+	padding: 0;
+	background-color:#f4f4f4;
+
+
+
+}
+
+/* global class using anywhere */
+.container {
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+/*
+.button_1{
+	height: 38px;
+	background: #e8491d;
+	border: 0;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #ffffff;
+
+
+}*/
+
+/* index.php */
+/* header */
+header {
+	background:#35424a;
+	color:#fff;
+	padding-top: 30px;
+	min-height: 70px;
+	border-bottom: #ffcc66 3px solid;
+
+}
+
+header a{
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+
+
+header li{
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+
+}
+
+header #branding{
+	float: left;
+}
+
+header #branding h1{
+	margin:0;
+}
+
+header nav{
+	float:right;
+	margin-top: 10px;
+}
+
+header .highlight, header .current a{
+	color:#e8491d;
+	font-weight:bold;
+
+}
+
+header a:hover{
+	color:	#cccccc;
+	font-weight: bold;
+}
+
+/* Showcase */
+
+.index-intro{
+	width:100%;
+	background: url("./img/showcasebg.jpg") no-repeat 0 -400px;
+
+	text-align: center;
+}
+
+.index-intro .jumbotron{
+	background-color: rgba(0, 0, 0, 0.5);
+	color: rgba(255, 255, 255, 0.9);
+
+	padding: 100px 60px;
+}
+
+#showcase{
+	min-height:400px;
+	//background: url("./img/bg.jpg") no-repeat 0 -400px;
+	text-align: center;
+	color: #ffffff;
+	background: url("./img/showcasebg.jpg") no-repeat 0 -400px;
+}
+
+#showcase h1{
+	margin-top: 100px;
+	font-size: 55px;
+	margin-bottom: 10px;
+}
+
+#showcase p{
+	font-size: 20px;
+}
+
+#newsletter{
+	padding:15px;
+	color:#ffffff;
+	background:#35424a;
+
+}
+
+#newsletter h1{
+	float: left;
+}
+
+#newsletter form{
+	float: right;
+	margin-top: 15px;
+}
+
+
+#boxes{
+	margin-top: 20px;
+	background-color: rgba(192,192,192,0.3);
+}
+
+#boxes .box{
+	float: left;
+	text-align: center;
+	width: 30%;
+	padding: 10px;
+
+}
+
+#boxes .box img{
+	width: 90px;
+}
+
+footer{
+
+	padding: 20px;
+	margin-top: 20px;
+	color:#ffffff;
+	background-color: rgba(255,0,0,0.3);
+	text-align: center;
+}
+
+
+
+
+
+.intro {
+	height: 100%;
+	width: 100%;
+	margin: auto;
+	background: url("img/showcasebg.jpg");
+	display: table;
+	top: 0;
+	background-size: cover;
+
+}
+
+.intro .inner {
+	display: table-cell;
+	vertical-align: middle;
+	width: 100%;
+	max-width: none;
+
+}
+
+.content {
+	max-width: 1500px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.content h1 {
+	font-family: 'Raleway', sans-serif;
+	color: rgb(204, 230, 255);
+	text-shadow: 0px 0px 300px #000;
+	font-size: 400%;
+
+}
+
+.content .btn{
+	border-radius: 9px;
+	font-family: 'Oswald', sans-serif;
+	color: rgb(204, 230, 255);
+	font-size: 135%;
+	padding: 10px 20px;
+	border: solid #036A81 3px;
+	text-transform: uppercase;
+	text-decoration: none;
+
+}
+
+.content .btn:hover{
+	color: #fff;
+	border: solid #fff 3px;
+
+}
+
+
+/*
+p.pCenter{
+	text-align: center;
+}*/
+
+/* signup.php */
+
+
+#signupform{
+
+
+	width: 500px;
+	height: 600px;
+	text-align: center;
+	background-color: rgba(52, 73, 94, 0.7);
+	margin: 0 auto;
+	text-align: center;
+	border-radius: 4px;
+
+	margin-top: 50px;
+	margin-bottom: 100px;
+
+
+
+}
+
+
+#problem{
+	width: 500px;
+	height: 50px;
+	background-color: rgba(255, 0, 0, 0.4);
+	margin: 0 auto;
+	text-align: center;
+	border-radius: 4px;
+	font-size: 20px;
+	color: #fff;
+
+}
+
+
+#signupform ::-webkit-input-placeholder { /* Chrome */
+	padding-left: 20px;
+}
+
+#signupform :-ms-input-placeholder { /* IE 10+ */
+  padding-left: 20px;
+}
+#signupform ::-moz-placeholder { /* Firefox 19+ */
+  padding-left: 20px;
+}
+#signupform :-moz-placeholder { /* Firefox 4 - 18 */
+  padding-left: 20px;
+}
+
+
+
+#signupform input{
+	height: 45px;
+	width: 300px;
+	font-size: 18px;
+	margin-top: 20px;
+	padding-left: 30px;
+
+}
+#signupform  button{
+	height: 45px;
+	width: 300px;
+	font-size: 18px;
+	margin-top: 20px;
+	padding: 15px 30px;
+	color: #fff;
+	border-radius: 4px;
+	border: none;
+	background-color: #2ECC71;
+	border-bottom: 4px solid #27AE60;
+
+}
+
+
+#signupform #input1::before{
+	content: "\f2bb";
+	position: absolute;
+	font-family: "FontAwesome";
+	font-size: 30px;
+	color: rgba(51, 153, 255, 0.7);
+	padding-left: 5px;
+	padding-top: 15px;
+	font-size: 35px;
+
+}
+
+#signupform #input2::before{
+	content: "\f2bc";
+	position: absolute;
+	font-family: "FontAwesome";
+	font-size: 30px;
+	color: rgba(51, 153, 255, 0.7);
+	padding-left: 5px;
+	padding-top: 15px;
+	font-size: 35px;
+
+
+}
+
+#signupform #input3::before{
+	content: "\f2c0";
+	position: absolute;
+	font-family: "FontAwesome";
+	font-size: 30px;
+	color: rgba(51, 153, 255, 0.7);
+	padding-left: 5px;
+	padding-top: 15px;
+	font-size: 35px;
+
+}
+
+#signupform #pwd::before{
+	content: "\f023";
+	position: absolute;
+	font-family: "FontAwesome";
+	font-size: 30px;
+	color: rgba(51, 153, 255, 0.7);
+	padding-left: 5px;
+	padding-top: 15px;
+	font-size: 35px;
+}
+
+#signupform input[type=text] {
+
+    padding-left: 50px;
+
+}
+
+#men{
+	position: relative;
+	width: 80px;
+	height: 80px;
+	margin-top: 20px;
+
+
+}
+
+/* Comment.php */
+
+
+
+#commentarea1
+{
+	padding-top: 20px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 50px;
+	font-weight: bold;
+}
+
+
+
+#commentarea2
+{
+	padding-top: 50px;
+}
+
+
+/*
+#commentsection{
+	width: 900px;
+	height: 600px;
+	text-align: center;
+	background-color: rgba(52, 73, 94, 0.7);
+	margin: 0 auto;
+	text-align: center;
+	border-radius: 4px;
+	margin-top: 150px;
+	padding-top:50px;
+}*/
+
+#commenttextarea {
+
+
+
+	width: 400px;
+	height: 90px;
+	background-color: #ffffff;
+	resize: none;
+
+}
+
+#commenttextarea::befoore {
+
+	content: "\f2bb";
+	position: absolute;
+	font-family: "FontAwesome";
+	font-size: 30px;
+
+	width: 400px;
+	height: 90px;
+	background-color: #ffffff;
+	resize: none;
+
+}
+
+
+#commentsumbitbutton{
+	width: 100px;
+	height: 30px;
+	background-color: #282828;
+	border: none;
+	color: #ffffff;
+	font-family: arial;
+	font-weight: 400;
+	margin-bottom:60px;
+
+}
+
+.comment-box{
+
+	width: 800px;
+	padding: 20px;
+	margin-bottom: 4px;
+	background-color: rgba(38, 38, 38, 0.4);
+	border-radius: 4px;
+	border-style: outset;
+	border-color: rgba(38, 38, 38, 0.6);
+	position: relative;
+}
+
+.comment-box p {
+	font-family: arial;
+	font-size: 18px;
+
+	line-height: 150%;
+	color: #282828;
+	font-weight: 100;
+}
+
+.edit-form{
+	padding-top: 20px;
+	position: absolute;
+	top: 0px;
+	right: 10px;
+}
+
+.edit-form #editbutton{
+	width: 100px;
+	height: 30px;
+	background-color: #282828;
+	border: none;
+	color: #ffffff;
+	font-family: arial;
+	font-weight: 400;
+	margin-bottom:60px;
+
+
+	opacity: 0.7;
+}
+
+.edit-form #editbutton:hover{
+	opacity: 1.0;
+}
+
+.delete-form{
+	padding-top: 20px;
+	position: absolute;
+	top: 0px;
+	right: 120px;
+}
+
+.delete-form #deletebutton{
+	width: 100px;
+	height: 30px;
+	background-color: #282828;
+	border: none;
+	color: #ffffff;
+	font-family: arial;
+	font-weight: 400;
+	margin-bottom:60px;
+
+
+	opacity: 0.7;
+}
+
+.delete-form #editbutton:hover{
+	opacity: 1.0;
+}
+
+/* Lecture.php */
+
+#lecturetable{
+		postion: relative;
+
+		align: center;
+    border-collapse: collapse;
+    border: 1px solid black;
+		margin-top: 200px;
+		margin-bottom: 200px;
+
+}
+th, td {
+    padding: 10px;
+}
+td {
+	text-align: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+    border: 1px solid black;
+}
+
+#firstrow{
+	font-weight: bold;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.oddrow{
+
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
+/*
+
+header{
+
+
+	width:100%;
+	height: 60px;
+	background-color: #222222
+
+}
+
+
+nav ul {
+	float: right;
+	margin-top: 20px;
+	margin-right: 50px;
+	color: #fff;
+	font-family: 'Oswald', sans-serif;
+}
+
+nav ul li {
+	list-style: none;
+	float: left;
+	margin-right: 20px;
+}
+
+nav ul li a {
+	color: #fff;
+	font-family: Arial;
+	font-size: 16px;
+
+}
+
+nav ul form {
+	float: left;
+
+}
+
+nav ul form input {
+	float: left;
+	border: none;
+	margin-right: 5px;
+
+}
+
+
+nav ul form button {
+	float: left;
+	border: none;
+	margin-right: 20px;
+	background-color: #fff;
+	color: #222;
+	font-size: 16px;
+	cursor: pointer;
+}*/

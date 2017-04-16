@@ -1,0 +1,21 @@
+/* Using XAMPP */
+/* in Phpmyadmin */
+
+
+/* Database logintest */
+
+CREATE TABLE user (
+	id int(11) not null PRIMARY KEY AUTO_INCREMENT,
+	first varchar(128) not null,
+	last varchar(128) not null,
+	uid varchar(128) not null,
+	pwd varchar(1000) not null
+); 
+
+
+CREATE TABLE comments (
+	cid int(11) not null AUTO_INCREMENT PRIMARY KEY,
+    uid varchar(128) not null,
+    date datetime not null,
+    message TEXT not null
+);
