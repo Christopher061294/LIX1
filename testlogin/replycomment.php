@@ -34,7 +34,6 @@
 			<nav>
 				<ul>
 					<li><a href="index.php">Home</a></li>
-					<li><a href="lecture.php">Lecture</a></li>
           <li class="current"><a href="comment.php">Ask a question</a></li>
 					<li><a href="signup.php">Signup</a></li>
 					<li>
@@ -112,24 +111,32 @@
   <!--<section id="commentsection">-->
   <section id="commentarea2">
     <?php
-		if (isset($_SESSION['id'])){
-    echo "<form method='POST' action='".setComments($conn)."'>
-      <input type='hidden' name='uid' value='".$_SESSION['id']."'>
-      <input type='hidden' name='date' value='".date('Y-m-d H:i:s')."'>
-      <textarea name='message' id='commenttextarea'>
-      </textarea><br>
-      <button type='sumbit' name='commentSumbit' id='commentsumbitbutton'>Comment</button>
-    </form>";
-		}
-		else {
-			echo "<p>You need to be logged in to comment! </p><br><br>";
-		}
+    $cid = $_POST['cid'];
+    $uid = $_POST['uid'];
+    $date = $_POST['date'];
+    $message = $_POST['message'];
+    $uid2 = $_POST['uid2'];
+    $id = $_POST['id'];
 
-    getComments($conn);
+
+    echo "<form method='POST' action='".replyComments($conn)."'>
+      <input type='hidden' name='cid' value='".$cid."'>
+      <input type='hidden' name='uid' value='".$uid."'>
+      <input type='hidden' name='date' value='".$date."'>
+      <input type='hidden' name='uid2' value='".$uid2."'>
+      <input type='hidden' name='id' value='".$id."'>
+      <textarea name='message' id='commenttextarea'>
+
+      >>User:".$uid2." Message:".$message."
+      </textarea><br>
+      <button type='sumbit' name='commentSumbit' id='commentsumbitbutton'>Reply</button>
+    </form>";
+
+
     ?>
   </section>
 
-    <footer >
+    <footer>
       <p>LIX1, Copyright &copy; 2017</p>
       <div>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
     </footer>
