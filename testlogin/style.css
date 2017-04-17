@@ -512,6 +512,35 @@ p.pCenter{
 	opacity: 1.0;
 }
 
+.edit-form #replybutton{
+	width: 100px;
+	height: 30px;
+	background-color: #282828;
+	border: none;
+	color: #ffffff;
+	font-family: arial;
+	font-weight: 400;
+	margin-bottom:60px;
+
+
+	opacity: 0.7;
+}
+
+.edit-form #replybutton:hover{
+	opacity: 1.0;
+}
+
+.commentmessage{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	float: right;
+	color: #ffffff
+}
+
+
+
+
 /* Lecture.php */
 
 #lecturetable{
