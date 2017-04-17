@@ -107,7 +107,7 @@
 		-->
 
 	</header>
-
+	<div class="container" id='commentsection'>
   <section id ="commentarea1"<h id=asqh>Ask a question</h></section>
   <!--<section id="commentsection">-->
   <section id="commentarea2">
@@ -124,7 +124,7 @@
 		else {
 			echo "<p>You need to be logged in to comment! </p><br><br>";
 		}
-
+		echo "</div>";
     getComments($conn);
     ?>
   </section>
