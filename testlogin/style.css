@@ -403,6 +403,8 @@ p.pCenter{
 	padding-top:50px;
 }*/
 
+
+
 #commenttextarea {
 
 
@@ -550,7 +552,7 @@ p.pCenter{
     border-collapse: collapse;
     border: 1px solid black;
 		margin-top: 200px;
-		margin-bottom: 200px;
+		margin-bottom: 50px;
 
 }
 th, td {
@@ -573,6 +575,21 @@ td {
 	background-color: rgba(0, 0, 0, 0.2);
 }
 
+#lecturetable2{
+		postion: relative;
+
+		align: center;
+    border-collapse: collapse;
+    border: 1px solid black;
+		margin-top: 0px;
+		margin-bottom: 100px;
+
+}
+
+#lecturetable2 #practicerow{
+	font-weight: bold;
+	background-color: rgba(0, 0, 0, 0.5);
+}
 /*
 
 header{
