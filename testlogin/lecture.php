@@ -109,11 +109,13 @@
  <td style="text-align: center">Module</td>
  <td style="text-align: center">Note</td>
  <td style="text-align: center">Video</td>
+ <td style="text-align: center">Code demo</td>
  </tr>
 
  <tr>
  <td style="text-align: right">1</td>
  <td style="text-align: left" rowspan="1"><a href="./lecture/Notes_chap1.pptx">Lecture 1: Why we Program</a></td>
+ <td style="text-align: left"></td>
  <td style="text-align: left"></td>
  </tr>
 
@@ -121,29 +123,34 @@
  <td style="text-align: right">2</td>
  <td style="text-align: left" rowspan="1"><a href="./lecture/Notes_chap2.pptx">Lecture 2: C++ Basics</a></td>
  <td style="text-align: left"><button><a href="./lecture/lecture2.avi">Lecture 2 video</button></td>
+ <td style="text-align: left"><a href="./lecture/Chap2.zip">demo2</a></td>
  </tr>
  <tr>
  <td style="text-align: right">3</td>
  <td style="text-align: left" rowspan="1"><a href="./lecture/Notes_chap3.pptx">Lecture 3: Control Flows</a></td>
  <td style="text-align: left"><button><a href="./lecture/lecture3.avi">Lecture 3 video</button></td>
+ <td style="text-align: left"><a href="./lecture/Chap3.zip">demo3</a></td>
  </tr>
 
  <tr class = "oddrow">
  <td style="text-align: right">4</td>
  <td style="text-align: left" rowspan="1"><a href="./lecture/Notes_chap4.pptx">Lecture 4: Functions</a></td>
  <td style="text-align: left"><button><a href="./lecture/lecture4.avi">Lecture 4 video</button></td>
+ <td style="text-align: left"><a href="./lecture/Chap4.zip">demo4</a></td>
  </tr>
 
  <tr>
  <td style="text-align: right">5</td>
  <td style="text-align: left" rowspan="1"><a href="./lecture/Notes_chap5.pptx">Lecture 5: Arrays and Structures</a></td>
  <td style="text-align: left"><button><a href="./lecture/lecture5.avi">Lecture 5 video</button></td>
+	 <td style="text-align: left"><a href="./lecture/Chap5.zip">demo5</a></td>
  </tr>
 
  <tr class = "oddrow">
  <td style="text-align: right">6</td>
  <td style="text-align: left" rowspan="1"><a href="./lecture/Notes_chap6.pptx">Lecture 6: Recursion</a></td>
  <td style="text-align: left"><button><a href="./lecture/lecture6.avi">Lecture 6 video</button></td>
+	 <td style="text-align: left"><a href="./lecture/Chap6.zip">demo6</a></td>
  </tr>
 
  </table>
@@ -159,6 +166,10 @@
 	<tr id = "secondrow2">
 		<td style="text-align: left" rowspan="1">Online c++ shell:</td>
 		<td style="text-align: left"><a href="http://cpp.sh/">cpp.sh</a></td>
+	</tr>
+	<tr id = "thirdrow2">
+		<td style="text-align: left" rowspan="1">Codechef:</td>
+		<td style="text-align: left"><a href="https://www.codechef.com/ide">codechef</a></td>
 	</tr>
 
 </table>
